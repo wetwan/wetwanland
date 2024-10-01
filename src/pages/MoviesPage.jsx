@@ -63,12 +63,15 @@ const [sortBy, setSortBy] = useState('popularity.desc')
     </div>
 
     {/* pagination */}
-
-    <Pagination 
+    {movies.length > 0 && !isLoading &&(
+         <Pagination 
       activePage={activePage} 
       totalPages={totalPages}
       setActivePage={setActivePage} 
       />
+      ) }
+
+    
   </div>
 
   )
