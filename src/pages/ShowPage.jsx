@@ -61,21 +61,13 @@ const [sortBy, setSortBy] = useState('popularity.desc')
     </div>
 
     {/* pagination */}
-<<<<<<< HEAD
   
-=======
-    {shows.length > 0 && !isLoading &&(
->>>>>>> 66fe89be1a122787bb9d3e83c11e3a7c6b89aa2d
          <Pagination 
       activePage={activePage} 
       totalPages={totalPages}
       setActivePage={setActivePage} 
       />
-<<<<<<< HEAD
       ) 
-=======
-      ) }
->>>>>>> 66fe89be1a122787bb9d3e83c11e3a7c6b89aa2d
    
   </div>
   )
