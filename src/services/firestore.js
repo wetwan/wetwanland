@@ -65,7 +65,6 @@ export const useFireStore =()=>{
                 ...doc.data()
                
              }));
-             console.log(data)
              return data
     } ,[])
     return {

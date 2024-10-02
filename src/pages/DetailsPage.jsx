@@ -32,7 +32,7 @@ const DetailsPage = () => {
     //             setLoading(true) 
     //             fetchDetails(type, id).then((res) =>{
     //                 setdetails(res )
-    //                 console.log(res , 'res')
+    //              
     //             }).catch((err) =>{
     //               console.log(err, 'err')
     //             }).finally(()=>{
@@ -83,7 +83,6 @@ const DetailsPage = () => {
             vote_average: details?.vote_average,
             overview: details?.overview
         }
-        // console.log(data, 'data')
         const dataId = details?.id.toString()
 // to add to watchlist
         await adeToWishlist(user?.uid, dataId,data)
